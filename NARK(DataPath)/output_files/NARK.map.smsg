@@ -1,3 +1,4 @@
+Warning (10273): Verilog HDL warning at controlUnit.sv(49): extended using "x" or "z" File: C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/controlUnit.sv Line: 49
 Info (10281): Verilog HDL Declaration information at ENABLE_MODULE.sv(2): object "I" differs only in case from object "i" in the same scope File: C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ALU_MODULE/ENABLE_MODULE.sv Line: 2
 Info (10281): Verilog HDL Declaration information at ONE_COMPLEMENTER_MODULE.sv(3): object "I" differs only in case from object "i" in the same scope File: C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ADD_SUB_MODULE/ONE_COMPLEMENTER_MODULE.sv Line: 3
 Info (10281): Verilog HDL Declaration information at N_INPUTS_OR.sv(3): object "I" differs only in case from object "i" in the same scope File: C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES/N_INPUTS_OR.sv Line: 3

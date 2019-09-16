@@ -7,54 +7,54 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/Lenovo/Desktop/NARK (Data path)/simulation/modelsim
+Z0 dC:/Users/Lenovo/Desktop/NARK(DataPath)/simulation/modelsim
 v_AND
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1568517764
+Z2 !s110 1568636723
 !i10b 1
 !s100 SoiQQELP@kd:Xh@i`UbcB3
-I3c3`onY[QDh[E7H0Q1^=31
+IE<QTUL<Qg7GB]Te0=QPA>1
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 !s105 _AND_sv_unit
 S1
 R0
 w1551890200
-8C:/Users/Lenovo/Desktop/NARK (Data path)/LOGIC_MODULES/_AND.sv
-FC:/Users/Lenovo/Desktop/NARK (Data path)/LOGIC_MODULES/_AND.sv
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES/_AND.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES/_AND.sv
 L0 1
 Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1568517764.000000
-!s107 C:/Users/Lenovo/Desktop/NARK (Data path)/LOGIC_MODULES/_AND.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK (Data path)/LOGIC_MODULES|C:/Users/Lenovo/Desktop/NARK (Data path)/LOGIC_MODULES/_AND.sv|
+Z5 !s108 1568636723.000000
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES/_AND.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES|C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES/_AND.sv|
 !i113 1
 Z6 o-sv -work work
-Z7 !s92 -sv -work work {+incdir+C:/Users/Lenovo/Desktop/NARK (Data path)/LOGIC_MODULES}
+Z7 !s92 -sv -work work +incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES
 Z8 tCvgOpt 0
 n@_@a@n@d
 v_NOT
 R1
-R2
+Z9 !s110 1568636722
 !i10b 1
 !s100 @bGgQRB79cEV_;V8PKmJ_0
-I<>^9]2eUz8753B90`ge[81
+Ik3Uh6QTL;PWMjGIe2SoaQ2
 R3
 !s105 _NOT_sv_unit
 S1
 R0
 w1552373014
-8C:/Users/Lenovo/Desktop/NARK (Data path)/LOGIC_MODULES/_NOT.sv
-FC:/Users/Lenovo/Desktop/NARK (Data path)/LOGIC_MODULES/_NOT.sv
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES/_NOT.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES/_NOT.sv
 L0 1
 R4
 r1
 !s85 0
 31
-R5
-!s107 C:/Users/Lenovo/Desktop/NARK (Data path)/LOGIC_MODULES/_NOT.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK (Data path)/LOGIC_MODULES|C:/Users/Lenovo/Desktop/NARK (Data path)/LOGIC_MODULES/_NOT.sv|
+Z10 !s108 1568636722.000000
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES/_NOT.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES|C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES/_NOT.sv|
 !i113 1
 R6
 R7
@@ -62,157 +62,1093 @@ R8
 n@_@n@o@t
 v_OR
 R1
-R2
+R9
 !i10b 1
 !s100 7n2RTQPhL`;knWRkX0T;H2
-IaEaSl@TWLZG>Qbc^@cRY43
+Il5GE_BTIWQbSH==IRF=d@0
 R3
 !s105 _OR_sv_unit
 S1
 R0
 w1551890361
-8C:/Users/Lenovo/Desktop/NARK (Data path)/LOGIC_MODULES/_OR.sv
-FC:/Users/Lenovo/Desktop/NARK (Data path)/LOGIC_MODULES/_OR.sv
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES/_OR.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES/_OR.sv
 L0 1
 R4
 r1
 !s85 0
 31
-Z9 !s108 1568517763.000000
-!s107 C:/Users/Lenovo/Desktop/NARK (Data path)/LOGIC_MODULES/_OR.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK (Data path)/LOGIC_MODULES|C:/Users/Lenovo/Desktop/NARK (Data path)/LOGIC_MODULES/_OR.sv|
+R10
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES/_OR.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES|C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES/_OR.sv|
 !i113 1
 R6
 R7
 R8
 n@_@o@r
-vEXTEND_MODULE
+v_XNOR
+R1
+R9
+!i10b 1
+!s100 ;?0_6o9SO_?bS^`fZzM=H3
+IY3o;`7zM_XU@]HiH^:<AO0
+R3
+!s105 _XNOR_sv_unit
+S1
+R0
+w1556239899
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES/_XNOR.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES/_XNOR.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES/_XNOR.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES|C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES/_XNOR.sv|
+!i113 1
+R6
+R7
+R8
+n@_@x@n@o@r
+v_XOR
+R1
+R9
+!i10b 1
+!s100 MnZ@8EkUjKM0hLEm]E^212
+ILABc6lWAnQjWN[V[]^W`e0
+R3
+!s105 _XOR_sv_unit
+S1
+R0
+w1551890347
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES/_XOR.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES/_XOR.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES/_XOR.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES|C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES/_XOR.sv|
+!i113 1
+R6
+R7
+R8
+n@_@x@o@r
+vADDER_MODULE
+R1
+Z11 !s110 1568636721
+!i10b 1
+!s100 A@UiDgbQL5ic16SezOGcg1
+I`?kU0`mMa:JXQB>2VIAzd0
+R3
+!s105 ADDER_MODULE_sv_unit
+S1
+R0
+w1567461758
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ADD_SUB_MODULE/ADDER_MODULE.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ADD_SUB_MODULE/ADDER_MODULE.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z12 !s108 1568636721.000000
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ADD_SUB_MODULE/ADDER_MODULE.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ADD_SUB_MODULE|C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ADD_SUB_MODULE/ADDER_MODULE.sv|
+!i113 1
+R6
+Z13 !s92 -sv -work work +incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ADD_SUB_MODULE
+R8
+n@a@d@d@e@r_@m@o@d@u@l@e
+vcondCheck
+R1
+Z14 !s110 1568636718
+!i10b 1
+!s100 <PNiz6c;OK[LN9L5@V4^[1
+IN7XL5CLo`GnH[^zEHI@1b1
+R3
+!s105 condCheck_sv_unit
+S1
+R0
+w1568498992
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/condCheck.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/condCheck.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z15 !s108 1568636718.000000
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/condCheck.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK|C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/condCheck.sv|
+!i113 1
+R6
+Z16 !s92 -sv -work work +incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK
+R8
+ncond@check
+vcondUnit
+R1
+R14
+!i10b 1
+!s100 WVXPaVWTYa60hl]eoIoNM1
+Ij0CkT;?RKeh^_ND`S_zh?2
+R3
+!s105 condUnit_sv_unit
+S1
+R0
+w1568623218
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/condUnit.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/condUnit.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/condUnit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK|C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/condUnit.sv|
+!i113 1
+R6
+R16
+R8
+ncond@unit
+vcontrolUnit
+R1
+R14
+!i10b 1
+!s100 <hzzTYUAj[zKEWAb_KRgH3
+I_ibRXX?NL;M7fG[A;KP@F1
+R3
+!s105 controlUnit_sv_unit
+S1
+R0
+w1568629833
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/controlUnit.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/controlUnit.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/controlUnit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK|C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/controlUnit.sv|
+!i113 1
+R6
+R16
+R8
+ncontrol@unit
+vDATAPATH_MODULE
+R1
+Z17 !s110 1568636719
+!i10b 1
+!s100 i?1j33anOImV;Vj=DQ8bS3
+I[AR[cX39IiIP3JAZ?QQib1
+R3
+!s105 DATAPATH_MODULE_sv_unit
+S1
+R0
+w1568616797
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/DATAPATH_MODULE.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/DATAPATH_MODULE.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z18 !s108 1568636719.000000
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/DATAPATH_MODULE.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK|C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/DATAPATH_MODULE.sv|
+!i113 1
+R6
+R16
+R8
+n@d@a@t@a@p@a@t@h_@m@o@d@u@l@e
+vDECODE_MODULE
 R1
 R2
 !i10b 1
-!s100 M1YVAao53f0]@[mQYHNha3
-IgWe_XfXYhinUdefkDNKl<0
+!s100 JAAZj6U@8k2DH@jamDS7:3
+If7JZP;Zbb_PzR_3AX_VIB2
 R3
-!s105 EXTEND_MODULE_sv_unit
+!s105 DECODE_MODULE_sv_unit
 S1
 R0
-w1568517748
-8C:/Users/Lenovo/Desktop/NARK (Data path)/N_BITS_NARK/EXTEND_MODULE.sv
-FC:/Users/Lenovo/Desktop/NARK (Data path)/N_BITS_NARK/EXTEND_MODULE.sv
+w1568595033
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/DECODE_MODULE.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/DECODE_MODULE.sv
 L0 1
 R4
 r1
 !s85 0
 31
 R5
-!s107 C:/Users/Lenovo/Desktop/NARK (Data path)/N_BITS_NARK/EXTEND_MODULE.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK (Data path)/N_BITS_NARK|C:/Users/Lenovo/Desktop/NARK (Data path)/N_BITS_NARK/EXTEND_MODULE.sv|
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/DECODE_MODULE.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK|C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/DECODE_MODULE.sv|
 !i113 1
 R6
-!s92 -sv -work work {+incdir+C:/Users/Lenovo/Desktop/NARK (Data path)/N_BITS_NARK}
+R16
+R8
+n@d@e@c@o@d@e_@m@o@d@u@l@e
+vEIGHT_N_BITS_INPUTS_THREE_BITS_SELECT_MUX_MODULE
+R1
+Z19 !s110 1568636720
+!i10b 1
+!s100 45DX2BeBcOCzUnVI0mD?Q2
+I2ald:;4Sf34D`WEkDo=:K3
+R3
+!s105 EIGHT_N_BITS_INPUTS_THREE_BITS_SELECT_MUX_MODULE_sv_unit
+S1
+R0
+w1567461587
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_MUX_MODULE/EIGHT_N_BITS_INPUTS_THREE_BITS_SELECT_MUX_MODULE.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_MUX_MODULE/EIGHT_N_BITS_INPUTS_THREE_BITS_SELECT_MUX_MODULE.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z20 !s108 1568636720.000000
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_MUX_MODULE/EIGHT_N_BITS_INPUTS_THREE_BITS_SELECT_MUX_MODULE.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_MUX_MODULE|C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_MUX_MODULE/EIGHT_N_BITS_INPUTS_THREE_BITS_SELECT_MUX_MODULE.sv|
+!i113 1
+R6
+Z21 !s92 -sv -work work +incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_MUX_MODULE
+R8
+n@e@i@g@h@t_@n_@b@i@t@s_@i@n@p@u@t@s_@t@h@r@e@e_@b@i@t@s_@s@e@l@e@c@t_@m@u@x_@m@o@d@u@l@e
+vENABLE_MODULE
+R1
+R11
+!i10b 1
+!s100 @<?0>ODi6PoHD0R2ZXXf31
+I:Q^`iBbg1@>CMiiL<bbYY2
+R3
+!s105 ENABLE_MODULE_sv_unit
+S1
+R0
+w1567461723
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ALU_MODULE/ENABLE_MODULE.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ALU_MODULE/ENABLE_MODULE.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ALU_MODULE/ENABLE_MODULE.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ALU_MODULE|C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ALU_MODULE/ENABLE_MODULE.sv|
+!i113 1
+R6
+Z22 !s92 -sv -work work +incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ALU_MODULE
+R8
+n@e@n@a@b@l@e_@m@o@d@u@l@e
+vEQUAL_COMPARATOR_MODULE
+R1
+R11
+!i10b 1
+!s100 :[?8i:[AU7TZKA`]X;3>21
+IB3G_[KU9cZUU_zc`74heU3
+R3
+!s105 EQUAL_COMPARATOR_MODULE_sv_unit
+S1
+R0
+w1567461712
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ALU_MODULE/EQUAL_COMPARATOR_MODULE.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ALU_MODULE/EQUAL_COMPARATOR_MODULE.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ALU_MODULE/EQUAL_COMPARATOR_MODULE.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ALU_MODULE|C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ALU_MODULE/EQUAL_COMPARATOR_MODULE.sv|
+!i113 1
+R6
+R22
+R8
+n@e@q@u@a@l_@c@o@m@p@a@r@a@t@o@r_@m@o@d@u@l@e
+vEXECUTE_MODULE
+R1
+R2
+!i10b 1
+!s100 dgJzTofLNb<99?2CVAjid3
+I5`m=Hc?2LB?e<ZdQCMK;72
+R3
+!s105 EXECUTE_MODULE_sv_unit
+S1
+R0
+w1568592904
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/EXECUTE_MODULE.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/EXECUTE_MODULE.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/EXECUTE_MODULE.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK|C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/EXECUTE_MODULE.sv|
+!i113 1
+R6
+R16
+R8
+n@e@x@e@c@u@t@e_@m@o@d@u@l@e
+vEXTEND_MODULE
+R1
+R2
+!i10b 1
+!s100 M1YVAao53f0]@[mQYHNha3
+IKbVdeQWDF88]G2R`o]fem1
+R3
+!s105 EXTEND_MODULE_sv_unit
+S1
+R0
+w1568517748
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/EXTEND_MODULE.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/EXTEND_MODULE.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/EXTEND_MODULE.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK|C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/EXTEND_MODULE.sv|
+!i113 1
+R6
+R16
 R8
 n@e@x@t@e@n@d_@m@o@d@u@l@e
+vFETCH_MODULE
+R1
+R2
+!i10b 1
+!s100 ICbjbmf[KBWiDVU0DV9Qa2
+IbM]OHPG8nMn]hGAGohb]o1
+R3
+!s105 FETCH_MODULE_sv_unit
+S1
+R0
+w1568595326
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/FETCH_MODULE.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/FETCH_MODULE.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/FETCH_MODULE.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK|C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/FETCH_MODULE.sv|
+!i113 1
+R6
+R16
+R8
+n@f@e@t@c@h_@m@o@d@u@l@e
+vFIVE_BITS_SELECT_THIRTY_TWO_DEMUX_MODULE
+R1
+R17
+!i10b 1
+!s100 BJO1ZodMhe@8F3>S6B1:c2
+IWzX2h2hdTHIVfiLF^gSiO2
+R3
+!s105 FIVE_BITS_SELECT_THIRTY_TWO_DEMUX_MODULE_sv_unit
+S1
+R0
+w1559515925
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_DEMUX_MODULE/FIVE_BITS_SELECT_THIRTY_TWO_DEMUX_MODULE.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_DEMUX_MODULE/FIVE_BITS_SELECT_THIRTY_TWO_DEMUX_MODULE.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_DEMUX_MODULE/FIVE_BITS_SELECT_THIRTY_TWO_DEMUX_MODULE.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_DEMUX_MODULE|C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_DEMUX_MODULE/FIVE_BITS_SELECT_THIRTY_TWO_DEMUX_MODULE.sv|
+!i113 1
+R6
+Z23 !s92 -sv -work work +incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_DEMUX_MODULE
+R8
+n@f@i@v@e_@b@i@t@s_@s@e@l@e@c@t_@t@h@i@r@t@y_@t@w@o_@d@e@m@u@x_@m@o@d@u@l@e
+vFlipFlop
+R1
+R14
+!i10b 1
+!s100 2C7XTfaJXYL`V]AJhzU1@1
+IGlTPcZa>?@LkfY9^niA<33
+R3
+!s105 FlipFlop_sv_unit
+S1
+R0
+w1563297168
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/FlipFlop.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/FlipFlop.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/FlipFlop.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK|C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/FlipFlop.sv|
+!i113 1
+R6
+R16
+R8
+n@flip@flop
+vFOUR_BITS_SELECT_SIXTEEN_DEMUX_MODULE
+R1
+R17
+!i10b 1
+!s100 ;aMFd@QD9JKQf4UjUV8A71
+I>ei6Q`UESSGf>TUnbJ<2]0
+R3
+!s105 FOUR_BITS_SELECT_SIXTEEN_DEMUX_MODULE_sv_unit
+S1
+R0
+w1558898208
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_DEMUX_MODULE/FOUR_BITS_SELECT_SIXTEEN_DEMUX_MODULE.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_DEMUX_MODULE/FOUR_BITS_SELECT_SIXTEEN_DEMUX_MODULE.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_DEMUX_MODULE/FOUR_BITS_SELECT_SIXTEEN_DEMUX_MODULE.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_DEMUX_MODULE|C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_DEMUX_MODULE/FOUR_BITS_SELECT_SIXTEEN_DEMUX_MODULE.sv|
+!i113 1
+R6
+R23
+R8
+n@f@o@u@r_@b@i@t@s_@s@e@l@e@c@t_@s@i@x@t@e@e@n_@d@e@m@u@x_@m@o@d@u@l@e
+vFOUR_N_BITS_INPUTS_TWO_BITS_SELECT_MUX_MODULE
+R1
+R19
+!i10b 1
+!s100 nC3@NeoPeSzUTfY`E;k9P3
+IaYRjZ=a;@bNn>UnA0M7QJ3
+R3
+!s105 FOUR_N_BITS_INPUTS_TWO_BITS_SELECT_MUX_MODULE_sv_unit
+S1
+R0
+w1567461576
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_MUX_MODULE/FOUR_N_BITS_INPUTS_TWO_BITS_SELECT_MUX_MODULE.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_MUX_MODULE/FOUR_N_BITS_INPUTS_TWO_BITS_SELECT_MUX_MODULE.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_MUX_MODULE/FOUR_N_BITS_INPUTS_TWO_BITS_SELECT_MUX_MODULE.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_MUX_MODULE|C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_MUX_MODULE/FOUR_N_BITS_INPUTS_TWO_BITS_SELECT_MUX_MODULE.sv|
+!i113 1
+R6
+R21
+R8
+n@f@o@u@r_@n_@b@i@t@s_@i@n@p@u@t@s_@t@w@o_@b@i@t@s_@s@e@l@e@c@t_@m@u@x_@m@o@d@u@l@e
+vINSTRUCTION_MEMORY
+R1
+Z24 !s110 1568636724
+!i10b 1
+!s100 fk]MIS>l7CoEIf1kIzilO0
+IWSCW0;n]R1G8R`F3_cC;K0
+R3
+!s105 INSTRUCTION_MEMORY_sv_unit
+S1
+R0
+w1568594666
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/MEMORY_MODULE/INSTRUCTION_MEMORY.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/MEMORY_MODULE/INSTRUCTION_MEMORY.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1568636724.000000
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/MEMORY_MODULE/INSTRUCTION_MEMORY.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/MEMORY_MODULE|C:/Users/Lenovo/Desktop/NARK(DataPath)/MEMORY_MODULE/INSTRUCTION_MEMORY.sv|
+!i113 1
+R6
+Z25 !s92 -sv -work work +incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/MEMORY_MODULE
+R8
+n@i@n@s@t@r@u@c@t@i@o@n_@m@e@m@o@r@y
+vKERNEL_MEMORY_MODULE
+R1
+R17
+!i10b 1
+!s100 JMozea^CL02C2MSBN^jjR0
+IETmgj?R49B`^_?X`UL2ie3
+R3
+!s105 KERNEL_MEMORY_MODULE_sv_unit
+S1
+R0
+w1568523931
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/MEMORY_MODULE/KERNEL_MEMORY_MODULE.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/MEMORY_MODULE/KERNEL_MEMORY_MODULE.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/MEMORY_MODULE/KERNEL_MEMORY_MODULE.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/MEMORY_MODULE|C:/Users/Lenovo/Desktop/NARK(DataPath)/MEMORY_MODULE/KERNEL_MEMORY_MODULE.sv|
+!i113 1
+R6
+R25
+R8
+n@k@e@r@n@e@l_@m@e@m@o@r@y_@m@o@d@u@l@e
+vMEMORY_MODULE
+R1
+R2
+!i10b 1
+!s100 c_d79aHho07hQ<WZ715SU2
+ILDW02=PWAh?Zl`M^1>OD_2
+R3
+!s105 MEMORY_MODULE_sv_unit
+S1
+R0
+w1568527104
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/MEMORY_MODULE.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/MEMORY_MODULE.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/MEMORY_MODULE.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK|C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/MEMORY_MODULE.sv|
+!i113 1
+R6
+R16
+R8
+n@m@e@m@o@r@y_@m@o@d@u@l@e
+vN_BITS_ADD_SUB_MODULE
+R1
+R11
+!i10b 1
+!s100 BnZ>MTQ1ZAh:bk9hH^X^i2
+If:7;j:AFZ_j@WSHK`:iOJ0
+R3
+!s105 N_BITS_ADD_SUB_MODULE_sv_unit
+S1
+R0
+w1557551192
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ADD_SUB_MODULE/N_BITS_ADD_SUB_MODULE.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ADD_SUB_MODULE/N_BITS_ADD_SUB_MODULE.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ADD_SUB_MODULE/N_BITS_ADD_SUB_MODULE.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ADD_SUB_MODULE|C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ADD_SUB_MODULE/N_BITS_ADD_SUB_MODULE.sv|
+!i113 1
+R6
+R13
+R8
+n@n_@b@i@t@s_@a@d@d_@s@u@b_@m@o@d@u@l@e
+vN_BITS_ALU_MODULE
+R1
+R11
+!i10b 1
+!s100 ;Y[3kb5JMUH4PQHInGzR73
+I@23@[1KDVUEQV2_LIIJQB3
+R3
+!s105 N_BITS_ALU_MODULE_sv_unit
+S1
+R0
+w1568616504
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ALU_MODULE/N_BITS_ALU_MODULE.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ALU_MODULE/N_BITS_ALU_MODULE.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ALU_MODULE/N_BITS_ALU_MODULE.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ALU_MODULE|C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ALU_MODULE/N_BITS_ALU_MODULE.sv|
+!i113 1
+R6
+R22
+R8
+n@n_@b@i@t@s_@a@l@u_@m@o@d@u@l@e
 vN_BITS_ARITMETIC_SHIFT_RIGHT
 R1
-Z10 !s110 1568517763
+R9
 !i10b 1
 !s100 2zYHjGU_2Ub942l:U?KJ<1
-IK1EC^Z4?92Idc^ACcoDNC2
+I3K_AYgm=Z1GV2@`mlNmS]1
 R3
 !s105 N_BITS_ARITMETIC_SHIFT_RIGHT_sv_unit
 S1
 R0
 w1568166746
-8C:/Users/Lenovo/Desktop/NARK (Data path)/LOGIC_MODULES/N_BITS_ARITMETIC_SHIFT_RIGHT.sv
-FC:/Users/Lenovo/Desktop/NARK (Data path)/LOGIC_MODULES/N_BITS_ARITMETIC_SHIFT_RIGHT.sv
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES/N_BITS_ARITMETIC_SHIFT_RIGHT.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES/N_BITS_ARITMETIC_SHIFT_RIGHT.sv
 L0 1
 R4
 r1
 !s85 0
 31
-R9
-!s107 C:/Users/Lenovo/Desktop/NARK (Data path)/LOGIC_MODULES/N_BITS_ARITMETIC_SHIFT_RIGHT.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK (Data path)/LOGIC_MODULES|C:/Users/Lenovo/Desktop/NARK (Data path)/LOGIC_MODULES/N_BITS_ARITMETIC_SHIFT_RIGHT.sv|
+R10
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES/N_BITS_ARITMETIC_SHIFT_RIGHT.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES|C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES/N_BITS_ARITMETIC_SHIFT_RIGHT.sv|
 !i113 1
 R6
 R7
 R8
 n@n_@b@i@t@s_@a@r@i@t@m@e@t@i@c_@s@h@i@f@t_@r@i@g@h@t
+vN_BITS_LOGIC_SHIFT_LEFT
+R1
+R9
+!i10b 1
+!s100 =?z5hd6dT5>Thb>[UCKP_1
+IQFfU2mgAS6m54zenlP4K>2
+R3
+!s105 N_BITS_LOGIC_SHIFT_LEFT_sv_unit
+S1
+R0
+w1567461928
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES/N_BITS_LOGIC_SHIFT_LEFT.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES/N_BITS_LOGIC_SHIFT_LEFT.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES/N_BITS_LOGIC_SHIFT_LEFT.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES|C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES/N_BITS_LOGIC_SHIFT_LEFT.sv|
+!i113 1
+R6
+R7
+R8
+n@n_@b@i@t@s_@l@o@g@i@c_@s@h@i@f@t_@l@e@f@t
+vN_BITS_MULTIPLIER
+R1
+R2
+!i10b 1
+!s100 <_7JaLDAhPFOGC^ohAC:W2
+IiPXjAOZP>Z>aD8m^LAe=b3
+R3
+!s105 N_BITS_MULTIPLIER_sv_unit
+S1
+R0
+w1568615934
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ALU_MODULE/N_BITS_MULTIPLIER.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ALU_MODULE/N_BITS_MULTIPLIER.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ALU_MODULE/N_BITS_MULTIPLIER.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ALU_MODULE|C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ALU_MODULE/N_BITS_MULTIPLIER.sv|
+!i113 1
+R6
+R22
+R8
+n@n_@b@i@t@s_@m@u@l@t@i@p@l@i@e@r
 vN_BITS_ONE_SELECT_MUX_MODULE
 R1
-R10
+R19
 !i10b 1
 !s100 o_6bU9mIkm;hQDTDUN8cN2
-I2OKOl]V317g8@HH[l>d?_1
+I9U]^P^IDYgNU4]=IA;D;52
 R3
 !s105 N_BITS_ONE_SELECT_MUX_MODULE_sv_unit
 S1
 R0
 w1567461577
-8C:/Users/Lenovo/Desktop/NARK (Data path)/N_BITS_MUX_MODULE/N_BITS_ONE_SELECT_MUX_MODULE.sv
-FC:/Users/Lenovo/Desktop/NARK (Data path)/N_BITS_MUX_MODULE/N_BITS_ONE_SELECT_MUX_MODULE.sv
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_MUX_MODULE/N_BITS_ONE_SELECT_MUX_MODULE.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_MUX_MODULE/N_BITS_ONE_SELECT_MUX_MODULE.sv
 L0 1
 R4
 r1
 !s85 0
 31
-R9
-!s107 C:/Users/Lenovo/Desktop/NARK (Data path)/N_BITS_MUX_MODULE/N_BITS_ONE_SELECT_MUX_MODULE.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK (Data path)/N_BITS_MUX_MODULE|C:/Users/Lenovo/Desktop/NARK (Data path)/N_BITS_MUX_MODULE/N_BITS_ONE_SELECT_MUX_MODULE.sv|
+R20
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_MUX_MODULE/N_BITS_ONE_SELECT_MUX_MODULE.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_MUX_MODULE|C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_MUX_MODULE/N_BITS_ONE_SELECT_MUX_MODULE.sv|
 !i113 1
 R6
-Z11 !s92 -sv -work work {+incdir+C:/Users/Lenovo/Desktop/NARK (Data path)/N_BITS_MUX_MODULE}
+R21
 R8
 n@n_@b@i@t@s_@o@n@e_@s@e@l@e@c@t_@m@u@x_@m@o@d@u@l@e
+vN_INPUTS_AND
+R1
+R9
+!i10b 1
+!s100 I_?i]JZN2VailU@KjZ3<71
+IMLz]Zc`KGU5S3]g@ZVDZV1
+R3
+!s105 N_INPUTS_AND_sv_unit
+S1
+R0
+w1567461908
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES/N_INPUTS_AND.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES/N_INPUTS_AND.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES/N_INPUTS_AND.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES|C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES/N_INPUTS_AND.sv|
+!i113 1
+R6
+R7
+R8
+n@n_@i@n@p@u@t@s_@a@n@d
+vN_INPUTS_OR
+R1
+R9
+!i10b 1
+!s100 b>FkPnXH?]RXER=l`=jRD0
+I<FoQG=>3>BjQ0o3?@ahYP2
+R3
+!s105 N_INPUTS_OR_sv_unit
+S1
+R0
+w1567461899
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES/N_INPUTS_OR.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES/N_INPUTS_OR.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES/N_INPUTS_OR.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES|C:/Users/Lenovo/Desktop/NARK(DataPath)/LOGIC_MODULES/N_INPUTS_OR.sv|
+!i113 1
+R6
+R7
+R8
+n@n_@i@n@p@u@t@s_@o@r
+vNARK_PROCESSOR
+R1
+R24
+!i10b 1
+!s100 Sc5nU1KXaeG1MYAc]OhAA1
+IXU9kiO8b2kMbD<Ebi7D?>3
+R3
+!s105 NARK_PROCESSOR_sv_unit
+S1
+R0
+w1568636578
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/NARK_PROCESSOR.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/NARK_PROCESSOR.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/NARK_PROCESSOR.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK|C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_NARK/NARK_PROCESSOR.sv|
+!i113 1
+R6
+R16
+R8
+n@n@a@r@k_@p@r@o@c@e@s@s@o@r
+vONE_BIT_ADDER_MODULE
+R1
+R11
+!i10b 1
+!s100 nJMPV;=L;h<QhkR:W9BoS1
+Im0RQ1cco@ekmPMK1CZ0aG0
+R3
+!s105 ONE_BIT_ADDER_MODULE_sv_unit
+S1
+R0
+w1553412673
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ADD_SUB_MODULE/ONE_BIT_ADDER_MODULE.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ADD_SUB_MODULE/ONE_BIT_ADDER_MODULE.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ADD_SUB_MODULE/ONE_BIT_ADDER_MODULE.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ADD_SUB_MODULE|C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ADD_SUB_MODULE/ONE_BIT_ADDER_MODULE.sv|
+!i113 1
+R6
+R13
+R8
+n@o@n@e_@b@i@t_@a@d@d@e@r_@m@o@d@u@l@e
 vONE_BIT_MUX_MODULE
 R1
-R10
+R19
 !i10b 1
 !s100 i@e7oU4kWOEB`UP[RRfQi3
-I_Y^Qb0<SADo<OLQM3anCn1
+IVT]b8^c;Z4VDRBaPhZG>i0
 R3
 !s105 ONE_BIT_MUX_MODULE_sv_unit
 S1
 R0
 w1559017112
-8C:/Users/Lenovo/Desktop/NARK (Data path)/N_BITS_MUX_MODULE/ONE_BIT_MUX_MODULE.sv
-FC:/Users/Lenovo/Desktop/NARK (Data path)/N_BITS_MUX_MODULE/ONE_BIT_MUX_MODULE.sv
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_MUX_MODULE/ONE_BIT_MUX_MODULE.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_MUX_MODULE/ONE_BIT_MUX_MODULE.sv
 L0 1
 R4
 r1
 !s85 0
 31
-R9
-!s107 C:/Users/Lenovo/Desktop/NARK (Data path)/N_BITS_MUX_MODULE/ONE_BIT_MUX_MODULE.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK (Data path)/N_BITS_MUX_MODULE|C:/Users/Lenovo/Desktop/NARK (Data path)/N_BITS_MUX_MODULE/ONE_BIT_MUX_MODULE.sv|
+R20
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_MUX_MODULE/ONE_BIT_MUX_MODULE.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_MUX_MODULE|C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_MUX_MODULE/ONE_BIT_MUX_MODULE.sv|
 !i113 1
 R6
-R11
+R21
 R8
 n@o@n@e_@b@i@t_@m@u@x_@m@o@d@u@l@e
+vONE_BIT_REGISTER_MODULE
+R1
+R19
+!i10b 1
+!s100 SU`G?;C=C0IfMZ57RIlXk1
+ISVZ=UmbhD^Y@A6RI=8=En3
+R3
+!s105 ONE_BIT_REGISTER_MODULE_sv_unit
+S1
+R0
+w1560111905
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/MEMORY_MODULE/ONE_BIT_REGISTER_MODULE.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/MEMORY_MODULE/ONE_BIT_REGISTER_MODULE.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/MEMORY_MODULE/ONE_BIT_REGISTER_MODULE.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/MEMORY_MODULE|C:/Users/Lenovo/Desktop/NARK(DataPath)/MEMORY_MODULE/ONE_BIT_REGISTER_MODULE.sv|
+!i113 1
+R6
+R25
+R8
+n@o@n@e_@b@i@t_@r@e@g@i@s@t@e@r_@m@o@d@u@l@e
+vONE_BITS_SELECT_TWO_DEMUX_MODULE
+R1
+R17
+!i10b 1
+!s100 :^8;^i3T]8fo?Jm7Z=16g0
+I1=U9FW;NPY97c[RM>CZIn3
+R3
+!s105 ONE_BITS_SELECT_TWO_DEMUX_MODULE_sv_unit
+S1
+R0
+w1559515334
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_DEMUX_MODULE/ONE_BITS_SELECT_TWO_DEMUX_MODULE.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_DEMUX_MODULE/ONE_BITS_SELECT_TWO_DEMUX_MODULE.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_DEMUX_MODULE/ONE_BITS_SELECT_TWO_DEMUX_MODULE.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_DEMUX_MODULE|C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_DEMUX_MODULE/ONE_BITS_SELECT_TWO_DEMUX_MODULE.sv|
+!i113 1
+R6
+R23
+R8
+n@o@n@e_@b@i@t@s_@s@e@l@e@c@t_@t@w@o_@d@e@m@u@x_@m@o@d@u@l@e
+vONE_COMPLEMENTER_MODULE
+R1
+R11
+!i10b 1
+!s100 Yn[5m?hH:J3_nLgY5bYN11
+Il:64Tb]>jM>>34lOR9XfG1
+R3
+!s105 ONE_COMPLEMENTER_MODULE_sv_unit
+S1
+R0
+w1567461739
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ADD_SUB_MODULE/ONE_COMPLEMENTER_MODULE.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ADD_SUB_MODULE/ONE_COMPLEMENTER_MODULE.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ADD_SUB_MODULE/ONE_COMPLEMENTER_MODULE.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ADD_SUB_MODULE|C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ADD_SUB_MODULE/ONE_COMPLEMENTER_MODULE.sv|
+!i113 1
+R6
+R13
+R8
+n@o@n@e_@c@o@m@p@l@e@m@e@n@t@e@r_@m@o@d@u@l@e
+vREGISTER_FILE_MODULE
+R1
+R17
+!i10b 1
+!s100 zj>D_`^ENb[WPa[?E?ZTU2
+Ibz4_V6W[Rbjf9YVM<SAf>0
+R3
+!s105 REGISTER_FILE_MODULE_sv_unit
+S1
+R0
+w1568513968
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/MEMORY_MODULE/REGISTER_FILE_MODULE.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/MEMORY_MODULE/REGISTER_FILE_MODULE.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/MEMORY_MODULE/REGISTER_FILE_MODULE.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/MEMORY_MODULE|C:/Users/Lenovo/Desktop/NARK(DataPath)/MEMORY_MODULE/REGISTER_FILE_MODULE.sv|
+!i113 1
+R6
+R25
+R8
+n@r@e@g@i@s@t@e@r_@f@i@l@e_@m@o@d@u@l@e
+vREGISTER_MODULE
+R1
+R17
+!i10b 1
+!s100 HFA@@C:g2RGnN2<m6;iIL3
+IMXfIVbRIC?]aaAZZ378A:2
+R3
+!s105 REGISTER_MODULE_sv_unit
+S1
+R0
+w1560102831
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/MEMORY_MODULE/REGISTER_MODULE.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/MEMORY_MODULE/REGISTER_MODULE.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/MEMORY_MODULE/REGISTER_MODULE.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/MEMORY_MODULE|C:/Users/Lenovo/Desktop/NARK(DataPath)/MEMORY_MODULE/REGISTER_MODULE.sv|
+!i113 1
+R6
+R25
+R8
+n@r@e@g@i@s@t@e@r_@m@o@d@u@l@e
+vSIXTEEN_N_BITS_INPUTS_FOUR_BITS_SELECT_MUX_MODULE
+R1
+R19
+!i10b 1
+!s100 7Ed8[U_ElzZiXN6>=gRRD3
+IjL_SXELk2:mD[VDQPYdjY3
+R3
+!s105 SIXTEEN_N_BITS_INPUTS_FOUR_BITS_SELECT_MUX_MODULE_sv_unit
+S1
+R0
+w1567461490
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_MUX_MODULE/SIXTEEN_N_BITS_INPUTS_FOUR_BITS_SELECT_MUX_MODULE.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_MUX_MODULE/SIXTEEN_N_BITS_INPUTS_FOUR_BITS_SELECT_MUX_MODULE.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_MUX_MODULE/SIXTEEN_N_BITS_INPUTS_FOUR_BITS_SELECT_MUX_MODULE.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_MUX_MODULE|C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_MUX_MODULE/SIXTEEN_N_BITS_INPUTS_FOUR_BITS_SELECT_MUX_MODULE.sv|
+!i113 1
+R6
+R21
+R8
+n@s@i@x@t@e@e@n_@n_@b@i@t@s_@i@n@p@u@t@s_@f@o@u@r_@b@i@t@s_@s@e@l@e@c@t_@m@u@x_@m@o@d@u@l@e
 vTESTBENCH_MODULE
 R1
-R10
+R19
 !i10b 1
-!s100 Pc>@1J=IIz>4=Dm44`8b:3
-I?I>>9d]gY[7S:Y@AT??4h2
+!s100 bIz`42ViL8KkhCEdC8_[93
+IMW^WUIanil`U1cmh@8X9h2
 R3
 !s105 TESTBENCH_MODULE_sv_unit
 S1
 R0
-w1568517487
-8C:/Users/Lenovo/Desktop/NARK (Data path)/TESTBENCH_MODULE.sv
-FC:/Users/Lenovo/Desktop/NARK (Data path)/TESTBENCH_MODULE.sv
+w1568636611
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/TESTBENCH_MODULE.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/TESTBENCH_MODULE.sv
 L0 3
 R4
 r1
 !s85 0
 31
-R9
-!s107 C:/Users/Lenovo/Desktop/NARK (Data path)/TESTBENCH_MODULE.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK (Data path)|C:/Users/Lenovo/Desktop/NARK (Data path)/TESTBENCH_MODULE.sv|
+R20
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/TESTBENCH_MODULE.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)|C:/Users/Lenovo/Desktop/NARK(DataPath)/TESTBENCH_MODULE.sv|
 !i113 1
 R6
-!s92 -sv -work work {+incdir+C:/Users/Lenovo/Desktop/NARK (Data path)}
+!s92 -sv -work work +incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)
 R8
 n@t@e@s@t@b@e@n@c@h_@m@o@d@u@l@e
+vTWO_BITS_SELECT_FOUR_DEMUX_MODULE
+R1
+R17
+!i10b 1
+!s100 HkB45>oAWz5mocR6?Eh[d1
+If7Vc8ehc@RMJ5h1<0<E]R2
+R3
+!s105 TWO_BITS_SELECT_FOUR_DEMUX_MODULE_sv_unit
+S1
+R0
+w1558898420
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_DEMUX_MODULE/TWO_BITS_SELECT_FOUR_DEMUX_MODULE.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_DEMUX_MODULE/TWO_BITS_SELECT_FOUR_DEMUX_MODULE.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_DEMUX_MODULE/TWO_BITS_SELECT_FOUR_DEMUX_MODULE.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_DEMUX_MODULE|C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_DEMUX_MODULE/TWO_BITS_SELECT_FOUR_DEMUX_MODULE.sv|
+!i113 1
+R6
+R23
+R8
+n@t@w@o_@b@i@t@s_@s@e@l@e@c@t_@f@o@u@r_@d@e@m@u@x_@m@o@d@u@l@e
+vTWO_COMPLEMENTER_MODULE
+R1
+R11
+!i10b 1
+!s100 K4GNjX?WH[>fJi^^97>E[1
+IQRJUNgZme60XBPb[[NMf82
+R3
+!s105 TWO_COMPLEMENTER_MODULE_sv_unit
+S1
+R0
+w1567461730
+8C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ADD_SUB_MODULE/TWO_COMPLEMENTER_MODULE.sv
+FC:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ADD_SUB_MODULE/TWO_COMPLEMENTER_MODULE.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ADD_SUB_MODULE/TWO_COMPLEMENTER_MODULE.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ADD_SUB_MODULE|C:/Users/Lenovo/Desktop/NARK(DataPath)/N_BITS_ADD_SUB_MODULE/TWO_COMPLEMENTER_MODULE.sv|
+!i113 1
+R6
+R13
+R8
+n@t@w@o_@c@o@m@p@l@e@m@e@n@t@e@r_@m@o@d@u@l@e

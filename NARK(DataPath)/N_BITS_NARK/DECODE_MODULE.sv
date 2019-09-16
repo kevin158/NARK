@@ -18,8 +18,8 @@ module DECODE_MODULE #(parameter BITS = 24) (CLK, RST, WE4, ImmSrcD, InstrD, PCP
 		EXTM (InstrD[15:0], ImmSrcD, P_ExtImmD);
 	
 	REGISTER_MODULE #(BITS, 1'b0) 
-		REGISTER_RD1     (CLK, RST, CLK, P_RD1,         RD1),
-		REGISTER_RD2 	  (CLK, RST, CLK, P_RD2,     		RD2),
-		REGISTER_ExtImmD (CLK, RST, CLK, P_ExtImmD, 		ExtImmD);
+		REGISTER_RD1     (CLK, RST, CLK, P_RD1,     RD1),
+		REGISTER_RD2 	  (CLK, RST, CLK, P_RD2,     RD2),
+		REGISTER_ExtImmD (CLK, RST, CLK, P_ExtImmD, ExtImmD);
 	
 endmodule 

@@ -1,5 +1,5 @@
 Flow report for NARK
-Mon Sep 16 01:01:40 2019
+Mon Sep 16 06:25:00 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -37,29 +37,24 @@ refer to the applicable agreement for further details.
 
 
 
-+-------------------------------------------------------------------------------+
-; Flow Summary                                                                  ;
-+---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Mon Sep 16 01:01:40 2019       ;
-; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
-; Revision Name                   ; NARK                                        ;
-; Top-level Entity Name           ; DATAPATH_MODULE                             ;
-; Family                          ; Cyclone V                                   ;
-; Device                          ; 5CSEMA5F31C6                                ;
-; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 970                                         ;
-; Total pins                      ; 38                                          ;
-; Total virtual pins              ; 0                                           ;
-; Total block memory bits         ; 0                                           ;
-; Total DSP Blocks                ; 0                                           ;
-; Total HSSI RX PCSs              ; 0                                           ;
-; Total HSSI PMA RX Deserializers ; 0                                           ;
-; Total HSSI TX PCSs              ; 0                                           ;
-; Total HSSI PMA TX Serializers   ; 0                                           ;
-; Total PLLs                      ; 0                                           ;
-; Total DLLs                      ; 0                                           ;
-+---------------------------------+---------------------------------------------+
++---------------------------------------------------------------------------+
+; Flow Summary                                                              ;
++-----------------------------+---------------------------------------------+
+; Flow Status                 ; Successful - Mon Sep 16 06:25:00 2019       ;
+; Quartus Prime Version       ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Revision Name               ; NARK                                        ;
+; Top-level Entity Name       ; TESTBENCH_MODULE                            ;
+; Family                      ; Cyclone V                                   ;
+; Device                      ; 5CSEMA5F31C6                                ;
+; Timing Models               ; Final                                       ;
+; Logic utilization (in ALMs) ; N/A until Partition Merge                   ;
+; Total registers             ; N/A until Partition Merge                   ;
+; Total pins                  ; N/A until Partition Merge                   ;
+; Total virtual pins          ; N/A until Partition Merge                   ;
+; Total block memory bits     ; N/A until Partition Merge                   ;
+; Total PLLs                  ; N/A until Partition Merge                   ;
+; Total DLLs                  ; N/A until Partition Merge                   ;
++-----------------------------+---------------------------------------------+
 
 
 +-----------------------------------------+
@@ -67,59 +62,59 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 09/16/2019 01:00:09 ;
+; Start date & time ; 09/16/2019 06:23:35 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; NARK                ;
 +-------------------+---------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                         ;
-+-------------------------------------+----------------------------------------+---------------+-----------------+-------------------------+
-; Assignment Name                     ; Value                                  ; Default Value ; Entity Name     ; Section Id              ;
-+-------------------------------------+----------------------------------------+---------------+-----------------+-------------------------+
-; COMPILER_SIGNATURE_ID               ; 196796319330019.156861720916036        ; --            ; --              ; --                      ;
-; EDA_BOARD_DESIGN_SYMBOL_TOOL        ; FPGA Xchange (Symbol)                  ; <None>        ; --              ; --                      ;
-; EDA_OUTPUT_DATA_FORMAT              ; Systemverilog Hdl                      ; --            ; --              ; eda_simulation          ;
-; EDA_OUTPUT_DATA_FORMAT              ; Fpga Xchange                           ; --            ; --              ; eda_board_design_symbol ;
-; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (SystemVerilog)        ; <None>        ; --              ; --                      ;
-; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --              ; eda_simulation          ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --              ; --                      ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --              ; --                      ;
-; MISC_FILE                           ; RAM_bb.v                               ; --            ; --              ; --                      ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; DATAPATH_MODULE ; Top                     ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; DATAPATH_MODULE ; Top                     ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; DATAPATH_MODULE ; Top                     ;
-; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --            ; --              ; --                      ;
-; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --              ; --                      ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --              ; --                      ;
-; TOP_LEVEL_ENTITY                    ; DATAPATH_MODULE                        ; NARK          ; --              ; --                      ;
-+-------------------------------------+----------------------------------------+---------------+-----------------+-------------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                          ;
++-------------------------------------+----------------------------------------+---------------+------------------+-------------------------+
+; Assignment Name                     ; Value                                  ; Default Value ; Entity Name      ; Section Id              ;
++-------------------------------------+----------------------------------------+---------------+------------------+-------------------------+
+; COMPILER_SIGNATURE_ID               ; 196796319330019.156863661413532        ; --            ; --               ; --                      ;
+; EDA_BOARD_DESIGN_SYMBOL_TOOL        ; FPGA Xchange (Symbol)                  ; <None>        ; --               ; --                      ;
+; EDA_OUTPUT_DATA_FORMAT              ; Systemverilog Hdl                      ; --            ; --               ; eda_simulation          ;
+; EDA_OUTPUT_DATA_FORMAT              ; Fpga Xchange                           ; --            ; --               ; eda_board_design_symbol ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (SystemVerilog)        ; <None>        ; --               ; --                      ;
+; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --               ; eda_simulation          ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --               ; --                      ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --               ; --                      ;
+; MISC_FILE                           ; RAM_bb.v                               ; --            ; --               ; --                      ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; TESTBENCH_MODULE ; Top                     ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; TESTBENCH_MODULE ; Top                     ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; TESTBENCH_MODULE ; Top                     ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --            ; --               ; --                      ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --               ; --                      ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --               ; --                      ;
+; TOP_LEVEL_ENTITY                    ; TESTBENCH_MODULE                       ; NARK          ; --               ; --                      ;
++-------------------------------------+----------------------------------------+---------------+------------------+-------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                        ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:01:26     ; 1.0                     ; 5004 MB             ; 00:01:44                           ;
-; Total                ; 00:01:26     ; --                      ; --                  ; 00:01:44                           ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                          ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Elaboration ; 00:01:27     ; 1.0                     ; 4932 MB             ; 00:01:45                           ;
+; Total                  ; 00:01:27     ; --                      ; --                  ; 00:01:45                           ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                    ;
-+----------------------+------------------+------------+------------+----------------+
-; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
-+----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; DESKTOP-IL1A9F1  ; Windows 10 ; 10.0       ; x86_64         ;
-+----------------------+------------------+------------+------------+----------------+
++--------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                      ;
++------------------------+------------------+------------+------------+----------------+
+; Module Name            ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++------------------------+------------------+------------+------------+----------------+
+; Analysis & Elaboration ; DESKTOP-IL1A9F1  ; Windows 10 ; 10.0       ; x86_64         ;
++------------------------+------------------+------------+------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
-quartus_map --read_settings_files=on --write_settings_files=off NARK -c NARK
+quartus_map --read_settings_files=on --write_settings_files=off NARK -c NARK --analysis_and_elaboration
 
 
 

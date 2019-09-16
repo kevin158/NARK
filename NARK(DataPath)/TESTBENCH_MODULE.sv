@@ -145,4 +145,20 @@ module TESTBENCH_MODULE;
 	end
 **/
 
+// NARK Testbench
+
+	logic        CLK, RST;
+	
+	NARK_PROCESSOR #(24) 
+		NARK (CLK, RST);
+	
+	initial begin  
+		RST = 1'b0; CLK = 1'b0; #100;
+		RST = 1'b1; CLK = 1'b1; #100;
+	end 
+
+	always begin 
+		CLK = ~ CLK; #100;
+   end
+
 endmodule 
