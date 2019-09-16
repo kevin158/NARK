@@ -1,0 +1,52 @@
+module TESTBENCH_MODULE;
+	
+	logic CLK, RST; 
+	logic [31:0] INSTRUCTION, PC, VIDEO_OUT;
+	
+	INSTRUCTION_MEMORY #(4)
+		INS_MOD (CLK, PC, INSTRUCTION);
+	ARMV4_MODULE
+		ARM (CLK, RST, INSTRUCTION, 32'h0, 32'hFFFFFFFF, PC, VIDEO_OUT);
+
+	initial begin 
+		
+		RST = 1'b0;
+		CLK = 1'b1; #1;
+		CLK = 1'b0; #1;
+		CLK = 1'b1; #1;
+		CLK = 1'b0; #1;
+		CLK = 1'b1; #1;
+		CLK = 1'b0; #1;
+		CLK = 1'b1; #1;
+		CLK = 1'b0; #1;
+		CLK = 1'b1; #1;
+		CLK = 1'b0; #1;
+		CLK = 1'b1; #1;
+		CLK = 1'b0; #1;
+		CLK = 1'b1; #1;
+		CLK = 1'b0; #1;
+		CLK = 1'b1; #1;
+		CLK = 1'b0; #1;
+		CLK = 1'b1; #1;
+		CLK = 1'b0; #1;
+		CLK = 1'b1; #1;
+		CLK = 1'b0; #1;
+		CLK = 1'b1; #1;
+		CLK = 1'b0; #1;
+		CLK = 1'b1; #1;
+		CLK = 1'b0; #1;
+		CLK = 1'b1; #1;
+		CLK = 1'b0; #1;
+		CLK = 1'b1; #1;
+		CLK = 1'b0; #1;
+		CLK = 1'b1; #1;
+		CLK = 1'b0; #1;
+		RST = 1'b1; 
+		
+	end
+
+	always begin
+		CLK <= ~ CLK; #100;
+	end
+
+endmodule 

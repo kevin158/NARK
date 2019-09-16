@@ -1,0 +1,3 @@
+module DECODE_MODULE #(BITS = 24) (CLK, RST, PCSrc, ResultW, InstrF, PCPlus1F);
+
+endmodule 

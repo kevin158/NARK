@@ -1,0 +1,12 @@
+module EXECUTE_MODULE #(parameter BITS = 24) (CLK, RST, RD1, RD2, WA4D, ExtImmE, ALUSrcE, ALUControlE, ALUFlags, ALUResultE, WriteDataE, WA4E);
+	
+	input  logic            CLK, RST, ALUSrcE;
+	input  logic [BITS-1:0] RD1, RD2;
+	input  logic [3:0]      WA4D;
+	input  logic [23:0]     ExtImmE;
+	input  logic [1:0]		ALUControlE;
+	output logic [3:0]		ALUFlags;
+	output logic [BITS-1:0] ALUResultE, WriteDataE;
+	output logic [3:0]      WA4E;
+	
+endmodule 

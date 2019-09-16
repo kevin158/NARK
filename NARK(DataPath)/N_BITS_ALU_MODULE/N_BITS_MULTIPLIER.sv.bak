@@ -1,0 +1,3 @@
+module N_BITS_MULTIPLIER #(parameter BITS = 7)(A, B, RESULT);
+	
+endmodule 
